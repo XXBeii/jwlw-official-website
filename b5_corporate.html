@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>梁景威律師事務所</title>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/menu_script.js"></script>
+
+<script>
+$(document).ready(function() {
+	$("#header").load("./components/b5_header.html");
+	$("#share_menu").load("./components/b5_menu.html", function() {
+		menu = new menu.dd("menu");
+		menu.init("menu","menuhover");
+	});
+	$("#footer").load("./components/b5_footer.html");
+});
+</script>
+<link rel="stylesheet" href="css/menu.css" type="text/css" />
+<link href="gb_style.css" rel="stylesheet" type="text/css"><link href="b5_style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="main">
+	
+    <div id="header"></div>	
+    <div id="share_menu"></div>
+      <div id="inside_banner_area"><div class="banner1"><div class="inside_title_area">收購合併; 盡職調查；企業交易﹑投資﹑融資</div></div>
+      	  	
+      </div><!--inside_banner_area-->
+  <div id="content_area">
+  	
+    <div class="content_txt">
+      <p>本所代表客戶在多樣化的企業交易中的談判﹑起草文件﹑簽約﹑成交交割各個階段享有豐富經驗，提供的服務包括評估商業機會，找出問題和實行實際解決方案擬達客戶的目的等。</p>
+      <p>我所按客戶的需求而提供有效和經濟的短﹑中﹑長線投資；進入計劃和有計劃的退出策略。</p>
+      <p>我所為客戶提供的法律事項包括： </p>
+      <ul>
+        <li>貸款融資交易； </li>
+        <li>買賣合同； </li>
+        <li>特許經營合同； </li>
+        <li>僱用合同； </li>
+        <li>技術特許合同； </li>
+        <li>企業重組整頓； </li>
+        <li>合夥協議;及 </li>
+        <li>企業營商計劃 </li>
+      </ul>
+      <p>我所梁景威律師在本地商業社會的資歷：</p>
+	  <p><a href="pdf/HKIoD-Fellow certificate.pdf" target="_blank">香港董事學會資深會員</a><br>
+      <a href="http://sc.hksi.org/TuniS/www.hksi.org/hksi/index.php?option=com_content&view=article&id=911&Itemid=192&lang=tc" target="_blank">香港證券及投資學會資深會員</a></p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p><a href="#" class="back">回頁首</a></p>
+    </div>
+   
+    
+  </div><!--content_area-->
+  <div id="footer"></div>
+</div><!--main-->
+</body>
+
+</html>
